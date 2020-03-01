@@ -1,0 +1,54 @@
+		<div>
+			<button
+				data-dh-feature="network"
+				data-dh-property-enable>Connect to MetaMask</button>
+			
+			<div
+				data-dh-feature="customContract"
+				data-dh-property-method-id="getFocus"
+				data-dh-property-contract-name="registry"
+				data-dh-property-method-name="focus"
+				data-dh-auto-invoke="true"
+			/>
+
+			<div
+				data-dh-property-method-id="getFocus"
+				data-dh-property-outputs="true"	
+			>	
+			</div>
+
+
+			<div
+				data-dh-feature="customContract"
+				 data-dh-property-method-id="callNewCase"
+				data-dh-property-contract-name="registry"
+				data-dh-property-method-name="newCase"
+			/>
+
+			<input 
+				data-dh-property-method-id="callNewCase"
+				data-dh-property-input-name="long"	
+				
+			/>
+			<input 
+				data-dh-property-method-id="callNewCase"
+				data-dh-property-input-name="lat"	
+			/>
+			<input 
+				data-dh-property-method-id="callNewCase"
+				data-dh-property-input-name="time"	
+			/>
+			<input 
+				data-dh-property-method-id="callNewCase"
+				data-dh-property-input-name="data"	
+			/>
+
+			<div 
+				data-dh-property-method-id="callNewCase"
+				data-dh-property-outputs="true"
+			/>
+
+			<button 
+				data-dh-property-method-id="callNewCase"
+				data-dh-property-invoke="true"
+			>New case</button>		

@@ -1,0 +1,63 @@
+.main-logo:
+{
+	margin-top:2em;
+	height:5em;
+}
+
+.motto
+{
+	font-style:italic;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+.login-select
+{
+	display: flex;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	background-color:darkblue;
+	height:20em;
+	border-radius:1em;
+}
+
+.login-option
+{
+	position:relative;
+	text-align:center;
+	width:50%;
+	
+}
+
+.login-option:hover
+{
+
+}
+
+.login-option:first-of-type
+{
+	border-right:1px solid #ddd;
+}
+.login-option:last-of-type
+{
+
+}
+
+.login-option-text
+{
+	position:relative;
+	top: 40%;
+	margin-bottom:auto;
+	font-size:15pt;
+	font-weight:bold;
+	color:white;
+
+
+}
+
+.login-option-text:hover
+{
+	transform:scale(1.2);
+	duration:2s;	
+}

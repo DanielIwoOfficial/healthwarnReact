@@ -1,0 +1,30 @@
+		/*	function refreshMap(fromBlock)
+				{
+					a=1
+				}
+
+	function getNewCases(fromBlock)
+	{
+		//w3=Web3("https://rinkeby.infura.io/v3/2c499aed715a47f5bb77ef88afc5f27d");
+		//c=new w3.eth.Contract(registry.networks[NETWORK_ID].address,registry.abi);
+		//c.getPastEvents('NewCase',{fromBlock:fromBlock},(err,el)=>{
+		//	if(err){throw err;}
+		//	console.log(el);					
+		//})
+
+	}
+	
+	getNewCases(0);
+	function NCLocations(evt)
+	{
+		var cds=[];
+		var i;
+		for(i=0;i<evt.length;i++)
+		{
+			var l=cds.length
+			cds[cds.length]=new Object;	
+			cds[l].longitude=parseInt(evt.returnValues.longitude)/6;
+			cds[l].latitude=parseInt(evt.returnValues.latitude)/6;
+		}
+		console.log(cds);
+	}			*/	
